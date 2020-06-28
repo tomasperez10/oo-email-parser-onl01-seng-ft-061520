@@ -7,12 +7,13 @@ class EmailAddressParser
   
   @@parse = []
   
-  def initialize(parse)
+  def initialize(parse, emails)
     @@parse = parse
+    @emails = emails
   end
   
   def parse
-    @@parse << @emails
+    @@parse << emails
   end
   
   
