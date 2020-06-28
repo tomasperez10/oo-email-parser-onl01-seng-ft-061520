@@ -8,7 +8,7 @@ class EmailAddressParser
   @@parse = []
   
   def initialize(csv_emails)
-    @csv_emailsemails = csv_emails
+    @csv_emails = csv_emails
   end
   
   def parse
