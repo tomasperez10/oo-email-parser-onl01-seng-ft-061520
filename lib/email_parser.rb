@@ -12,7 +12,7 @@ class EmailAddressParser
   end
   
   def parse
-    @@parse << emails
+    @@parse << @emails
   end
   
   
